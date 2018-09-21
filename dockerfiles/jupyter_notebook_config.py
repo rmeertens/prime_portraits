@@ -8,3 +8,7 @@ c.MultiKernelManager.default_kernel_name = 'python2'
 c.NotebookApp.password = '' 
 c.NotebookApp.token = ''
 
+c.NotebookApp.allow_remote_access = True
+c.NotebookApp.allow_origin = '*'
+
+

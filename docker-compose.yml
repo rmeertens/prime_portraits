@@ -3,6 +3,6 @@ services:
   tensorflow:
     build: dockerfiles
     ports: 
-     - "8880:8888"
+     - "8888:8888"
     volumes:
      - .:/notebooks
