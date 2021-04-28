@@ -1,4 +1,4 @@
 #!/bin/bash
-jupyter notebook "$@" --NotebookApp.token=abc --allow-root
+jupyter notebook "$@"  --allow-root
 
 
